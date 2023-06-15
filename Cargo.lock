@@ -4811,8 +4811,8 @@ dependencies = [
 
 [[package]]
 name = "rhai"
-version = "1.14.0"
-source = "git+https://github.com/garypen/rhai.git?branch=main#ee6b6d69ddad52e53c4dc90137969b4a400e88b1"
+version = "1.15.0"
+source = "git+https://github.com/rhaiscript/rhai.git?branch=main#d12b124f67d1fc752df20ef4694b7e53b076a90c"
 dependencies = [
  "ahash 0.8.3",
  "bitflags",
@@ -4887,7 +4887,7 @@ dependencies = [
 [[package]]
 name = "rhai_codegen"
 version = "1.5.0"
-source = "git+https://github.com/garypen/rhai.git?branch=main#ee6b6d69ddad52e53c4dc90137969b4a400e88b1"
+source = "git+https://github.com/rhaiscript/rhai.git?branch=main#d12b124f67d1fc752df20ef4694b7e53b076a90c"
 dependencies = [
  "proc-macro2",
  "quote",

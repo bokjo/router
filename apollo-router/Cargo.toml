@@ -163,7 +163,7 @@ prost-types = "0.11.9"
 proteus = "0.5.0"
 rand = "0.8.5"
 # rhai = { version = "1.14.0", features = ["sync", "serde", "internals"] }
-rhai = { git = "https://github.com/garypen/rhai.git", features = ["sync", "serde", "internals"], branch = "main" }
+rhai = { git = "https://github.com/rhaiscript/rhai.git", features = ["sync", "serde", "internals"], branch = "main" }
 regex = "1.8.4"
 reqwest = { version = "0.11.18", default-features = false, features = [
     "rustls-tls",
@@ -249,6 +249,7 @@ reqwest = { version = "0.11.18", default-features = false, features = [
     "json",
     "stream",
 ] }
+rhai = { git = "https://github.com/rhaiscript/rhai.git", features = ["sync", "serde", "internals", "testing-environ"], branch = "main" }
 similar-asserts = "1.4.2"
 tempfile = "3.6.0"
 test-log = { version = "0.2.11", default-features = false, features = [
